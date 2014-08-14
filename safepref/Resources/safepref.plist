@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>No Substrate passcode: passcode will only be prompted for in safe mode. Lockscreen passcode will be bypassed if substrate is loaded.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.skylerk99.safepref</string>
+			<key>key</key>
+			<string>enabled</string>
+			<key>label</key>
+			<string>No Substrate Passcode</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>No Safe Lock CC: Forces lock CC to work while substrate is loaded, if safe mode is active then lock CC will be disabled on lockscreen. Must go to Settings -&gt; Control Center and disable &quot;Access on Lock Screen&quot;</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.skylerk99.safepref</string>
+			<key>key</key>
+			<string>noCC</string>
+			<key>label</key>
+			<string>No Safe Lock CC</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Respring for changes to take affect. Use the safemode button to test security.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Respring</string>
+			<key>action</key>
+			<string>respring</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Safemode </string>
+			<key>action</key>
+			<string>safe</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>SafeLock</string>
+</dict>
+</plist>

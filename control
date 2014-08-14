@@ -1,0 +1,9 @@
+Package: com.skylerk99.nopass
+Name: SafeLock
+Depends: mobilesubstrate
+Version: 1.0.2
+Architecture: iphoneos-arm
+Description: Passcode only enabled in safe or no substrate mode.
+Maintainer: Skylerk99
+Author: Skylerk99
+Section: Tweaks

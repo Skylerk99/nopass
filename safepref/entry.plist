@@ -1,0 +1,10 @@
+{
+	entry = {
+		bundle = safepref;
+		cell = PSLinkCell;
+		detail = "safeprefListController";
+		icon = "safepref.png";
+		isController = 1;
+		label = SafeLock;
+	};
+}
